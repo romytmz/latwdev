@@ -1,19 +1,19 @@
 #include <cstdlib>
 #include <iostream>
-#include <cmacth>
+#include <cmath>
 using namespace std;
 
 int main ()
 {
     int a, b, c;
-    float x1, x2, xd;
+    float x1, x2, d;
     
     //mengambil masukan pengguna
-    cout << Masukkan nilai a : " ;
+    cout << "Masukkan nilai a : " ;
     cin >> a;
-    cout << Masukkan nilai b : " ;
+    cout << "Masukkan nilai b : " ;
     cin >> b;
-    cout << Masukkan nilai c : " ;
+    cout << "Masukkan nilai c : " ;
     cin >> c;
     
     //hitung nilai determinan
@@ -28,7 +28,7 @@ if (d>0) {
     cout  << "akar x1 = " << x1 << endl;
     cout  << "akar x2 = " << x2 << endl;
     
-    else if (d == 0){
+    }else if (d == 0){
         //menghitung nilai x1 dan x2
         x1 = b /(2*a);
         x2 = x1;
